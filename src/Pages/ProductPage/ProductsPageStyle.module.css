@@ -1,0 +1,14 @@
+.innerContainer{
+    display: flex;
+    background-color: whitesmoke;
+    /* overflow:auto; */
+    /* width: 100%; */
+
+
+}
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    /* overflow:auto; */
+width: inherit;
+}

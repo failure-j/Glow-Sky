@@ -1,0 +1,61 @@
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  gap: 243px;
+  padding-bottom: 261.816px;
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+  height: 824px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+
+}
+
+.emptyHeader {
+  padding: 32px 0px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+
+
+.emptyContent{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 392.011px;
+    margin: 0px 24px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.content p{
+    color: grey;
+}
+.primary{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  width: 307.219px;
+  align-items: center;
+  
+}

@@ -1,0 +1,77 @@
+.itemContainer {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    /* optional */
+    width: 772px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: #000;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 772px;
+  
+  }
+  
+  .descriptionSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .priceContainer {
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .promo {
+    background-color: palevioletred;
+  }
+  .discount{
+      text-decoration: line-through;
+      color: grey;
+  
+  }
+  
+  .itemQuantityControl {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .itemQuantity {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .roundButton {
+    border-radius: 40px;
+    color: #000;
+    background-color:inherit;
+    border: 1px solid black;
+    padding: unset;
+      height: 20px;
+      width: 20px;
+      text-align: center;
+    
+  }
+  
+  .removeButton {
+    border: none;
+    text-decoration: underline;
+    color: #000;
+    background-color:inherit;
+    outline: none;
+  }
+  

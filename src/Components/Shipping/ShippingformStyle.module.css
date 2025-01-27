@@ -1,0 +1,40 @@
+.shippingContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 772px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: #000;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.nestedForm{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+
+}
+
+.nestedForm :where(input , select){
+flex: 1;
+
+}
+
+input{
+    height: 40px;
+    background-color: whitesmoke;
+    color: #000;
+}
+
+select{
+    height: 40px;
+    background-color: whitesmoke;
+    color: #000;
+}

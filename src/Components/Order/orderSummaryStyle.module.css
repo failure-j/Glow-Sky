@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+.orderContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 440px;
+    color: #000;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    border: 1px solid rgb(107, 37, 37);
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 0px;
+}
+.subContent{
+    display: flex;
+justify-content: space-between;
+}
+.price{
+    display: flex;
+    padding: 16px 0px;
+    justify-content: space-between;
+    border-top: 1px solid gray ;
+}
+
+.button{
+    background-color: rgb(162, 23, 72);
+    color: aliceblue;
+    width: 100%;
+    border-radius: unset;
+}

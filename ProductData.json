@@ -1,0 +1,49 @@
+{
+  "data": {
+    "products": [
+      { "id":1,
+        "img": "https://chatgpt.com",
+        "name": "Vinoperfect",
+        "description": "Brightening Dark Spot Serum Vitamin C Alternative - Jumbo",
+        "price": 170,
+        "rating":3
+      },
+      {
+        "id":2,
+        "img": "https://chatgpt.com",
+        "name": "Vinoperfect",
+        "description": "Brightening Dark Spot Serum Vitamin C Alternative - Jumbo",
+        "price": 160,
+        "rating":3,
+        "discount": 0.1,
+        "category":["eyeCare"]
+      },
+      {
+        
+        "id":3,
+        "img": "https://chatgpt.com",
+        "name": "Vinoperfect",
+        "description": "Brightening Dark Spot Serum Vitamin C Alternative - Jumbo",
+        "price": 180,
+        "rating":3,
+        "discount": 0.2
+
+      }
+      ,{
+        "id":4,
+        "img": "https://chatgpt.com",
+        "name": "Vinoperfect",
+        "description": "Brightening Dark Spot Serum Vitamin C Alternative - Jumbo",
+        "price": 190,
+        "rating":3
+      },{
+        "id":5,
+        "img": "https://chatgpt.com",
+        "name": "CREAM",
+        "description": "Brightening Dark Spot Serum Vitamin C Alternative - Jumbo",
+        "price": 200,
+        "rating":3
+      }
+    ]
+  }
+}

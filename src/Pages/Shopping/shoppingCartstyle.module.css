@@ -1,0 +1,31 @@
+.shoppingContainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 32px;
+   /* margin: 24px 0px 128px; */
+   background-color: whitesmoke;
+   padding: 24px 0px 128px;
+
+}
+
+.shoppingDetails{
+    /* display: flex;
+    padding: 0px 50px;
+    gap: 128px;
+    justify-content: center;
+    width: inherit;
+    background-color: whitesmoke;
+    box-sizing: border-box; */
+    background-color: whitesmoke;
+    width: inherit;
+
+}
+
+.breadcrumbs{
+    display: flex;
+    padding: 0px 50px;
+    gap: 16px;
+    background-color: whitesmoke;
+    color: black;
+}

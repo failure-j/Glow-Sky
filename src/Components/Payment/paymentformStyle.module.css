@@ -1,0 +1,35 @@
+.shippingContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 772px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: #000;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+.nestedForm{
+    display: flex;
+    gap: 8px;
+    width: 100%;
+
+}
+
+.border{
+    border: 1px solid black;
+}
+.field input {
+    height: 40px;
+}

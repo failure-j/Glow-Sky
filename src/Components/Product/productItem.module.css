@@ -1,0 +1,59 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 260px;
+  text-align: left;
+  background-color: white;
+  color: #000;
+}
+
+.images {
+  position: relative;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.cost {
+  display: flex;
+  gap: 8px;
+}
+
+.promo{
+    background-color: rgb(195, 29, 84);
+color: rgb(255, 255, 255);
+}
+.wishlist{
+margin-left: auto;
+
+}
+.discount{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.primary{
+    background-color: #000;
+    color: white;
+    border-radius: unset;
+}

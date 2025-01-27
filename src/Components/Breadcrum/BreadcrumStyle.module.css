@@ -1,0 +1,75 @@
+.breadContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16;
+padding: 0 50px;
+/* width: 100%; */
+overflow: hidden;
+background-color: whitesmoke;
+
+    
+}
+.breadcrums{
+    color: blue;
+    text-align: left;
+}
+
+.crums{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.sorting{
+    text-align: end;
+    color: black;
+ 
+}
+
+.sorting::after{
+    content: '';
+    background-color: grey;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    display: block;
+    
+}
+
+.sorting::before{
+    content: '';
+    background-color: grey;
+    height: 1px;
+    width: 100%;
+    top:0 ;
+    display: block;
+ 
+}
+
+.sorting label{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.select{
+
+appearance: none;
+border: none;
+color: black;
+font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+outline: none;
+
+}
+
+.select:focus{
+
+    border: none;
+    }
+   /* display: flex;
+    justify-content: end;
+    color: black; */

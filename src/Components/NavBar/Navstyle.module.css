@@ -1,0 +1,92 @@
+.navContainer {
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: auto;
+}
+
+.navPromo {
+  background-color: #ac145a;
+  color: #ffffff;
+  gap: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 50px;
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  padding: 16px;
+  gap: 24px;
+  position: relative;
+  justify-content: center;
+}
+
+.links::after {
+  content: " ";
+  background-color: grey;
+  height: 1px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.links::before {
+  content: " ";
+  background-color: grey;
+  height: 1px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.SearchContainer {
+  display: flex;
+  gap: 16px;
+  width: 348px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchContainer span {
+  display: none;
+}
+.SearchContainer:focus-within {
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  transition: display 60s ease ;
+
+  flex-direction: row-reverse;
+}
+
+.SearchContainer:focus-within span {
+  display: block;
+}
+
+.searchInput {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.BrandContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

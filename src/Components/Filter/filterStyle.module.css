@@ -1,0 +1,43 @@
+.filterContainer{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 24px 0px 0px 50px;
+    flex-shrink: 0;
+
+}
+
+.filterSection{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    /* width: inherit; */
+
+
+
+
+}
+.filterTitle{
+display: flex;
+justify-content: space-between;
+padding: 16px 0px;
+align-items: center;
+
+}
+
+.filterSubSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+
+.checkContainer{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    
+}

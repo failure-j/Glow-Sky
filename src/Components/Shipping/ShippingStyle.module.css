@@ -1,0 +1,11 @@
+.shippingContainer{
+    
+    display: flex;
+    padding: 0px 50px;
+    gap: 128px;
+    justify-content: center;
+    /* width: inherit; */
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    
+}

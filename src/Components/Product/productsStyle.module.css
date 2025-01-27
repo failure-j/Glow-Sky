@@ -1,0 +1,31 @@
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 50px 128px 32px ;
+    gap: 64px;
+    color: black;
+    background-color: whitesmoke;
+    width: 1098px;
+    /* width: 100%; */
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    gap: 32px 20px;
+
+}
+
+.paginationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.paginationButton{
+    background-color: white;
+    color: black;
+}
